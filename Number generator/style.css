@@ -1,0 +1,119 @@
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search-bar {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 75%;
+    font-size: 18px;
+    border: 0px;
+    outline: none;
+    padding-left: 8px;
+}
+
+input[type="button"] {
+    width: 25%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    outline: none;
+    background-color: #F3D1F4;
+    color: #191919;
+}
+
+.numberContainer {
+    width: 510px;
+    box-sizing: border-box;
+}
+
+.numberBox {
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    margin: 3px;
+    background-color: aqua;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 27px;
+}
+
+.nan {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: antiquewhite;
+    background-color: #FF8080;
+    border-radius: 50px;
+    font-size: 22px;
+}
+.infiniti {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: antiquewhite;
+    background-color: #7ED7C1;
+    border-radius: 50px;
+    font-size: 22px;
+}
+
+ul {
+    width: 510px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    font-size: 16px;
+}
+ul li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    line-height: 16px;
+    text-align: bottom;
+}
+li:nth-child(1)::before {
+    background-color: #DCFFB7;
+
+}li:nth-child(2)::before {
+    background-color: #FFBB64;
+
+}li:nth-child(3)::before {
+    background-color: #FF6868;
+
+}
