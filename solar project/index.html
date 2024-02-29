@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Calculate a weight of an object on a planet</h1>
+        <form action="">
+            <input type="text" placeholder="Mass in kilogram" id="text">
+            <select name="" id="select" aria-placeholder="select planet">
+                <option value="" >Select planet</option>
+                <option value="Mercury">Mercury</option>
+                <option value="Venus">Venus</option>
+                <option value="Earth">Earth</option>
+                <option value="Mars">Mars</option>
+                <option value="Jupiter">Jupiter</option>
+                <option value="Saturn">Saturn</option>
+                <option value="Uranus">Uranus </option>
+                <option value="Neptun">Neptun </option>
+            </select>
+            <input type="button" value="Calculate weight" id="button">
+        </form>
+
+        <div id="box">
+            <div class="warning_box">Mass is required</div>
+
+            <div class="image_box">
+                <img src="" alt="" id="image">
+            </div>
+
+            <div class="calculate_box">
+                The weight of object on <span id="planet_name">Mercury</span>
+                <div class="weight"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
